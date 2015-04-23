@@ -9,5 +9,5 @@ lol = requests.get("https://global.api.pvp.net/api/lol/static-data/euw/v1.2/cham
 nombre="Fizz"
 if lol.status_code == 200:
 	champions = json.loads(lol.text)
-	for datos in champions['data'][nombre]['stats'].keys():
-		print datos
+	for dato in champions['data'][nombre]['stats'].keys():
+		print dato,"=",champions['data'][nombre]['stats'][dato]
