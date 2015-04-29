@@ -12,5 +12,4 @@ if lol.status_code == 200:
 	champions = json.loads(lol.text)
 	for i in champions['data'].keys():
 		print i
-		print champions["data"][i]
 		

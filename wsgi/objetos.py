@@ -9,4 +9,5 @@ mi_api='fcf7e44d-5a7c-4699-9f58-88423c69fb9d'
 dicc={"locale":"es_ES","itemListData":"stats","api_key":mi_api}
 lol = requests.get("https://global.api.pvp.net/api/lol/static-data/euw/v1.2/item",params=dicc)
 if lol.status_code == 200:
-	print lol
+	objetos = json.loads(lol.text)
+	print objetos
