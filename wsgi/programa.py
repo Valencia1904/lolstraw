@@ -5,7 +5,7 @@ def principal():
     return template('html5up-alpha/index.html')
 
 
-@route('html5up-alpha/<filepath:path>')
+@route('/html5up-alpha/<filepath:path>')
 def server_static(filepath):
     return static_file(filepath, root='static')
 
