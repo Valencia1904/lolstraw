@@ -2,10 +2,10 @@ from bottle import Bottle,route,run,request,template,static_file
 #indez
 @route('/')
 def principal():
-    return template('html5up-alpha/index.html')
+    return template('index.tpl')
 
 
-@route('/html5up-alpha/<filepath:path>')
+@route('/static/<filepath:path>')
 def server_static(filepath):
     return static_file(filepath, root='static')
 
