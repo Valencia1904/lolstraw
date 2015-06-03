@@ -2,7 +2,7 @@ from bottle import route, default_app,request,template,static_file
 #mybottleapp.py de lolstraw
 @route('/')
 def principal():
-    return template('index.tpl')
+    return template("index.tpl")
 
 
 @route('/static/<filepath:path>')
