@@ -1,7 +1,7 @@
-from bottle import route, default_app,request,template,static_file
+from bottle import route, default_app,Bottle,request,template,static_file
 #mybottleapp.py de lolstraw
 @route('/')
-def principal():
+def index():
     return template("index.tpl")
 
 
