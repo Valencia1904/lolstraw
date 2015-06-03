@@ -1,12 +1,13 @@
-from bottle import route, default_app
+from bottle import route, default_app,request,template,static_file
 
-@route('/name/<name>')
-def nameindex(name='Stranger'):
-    return '<strong>Hello, %s!</strong>' % name
- 
 @route('/')
-def index():
-    return '<strong>Hello World!</strong>'
+def principal():
+    return template('index.tpl')
+
+
+@route('/static/<filepath:path>')
+def server_static(filepath):
+    return static_file(filepath, root='static')
 
 # This must be added in order to do correct path lookups for the views
 import os
