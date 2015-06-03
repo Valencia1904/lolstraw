@@ -1,5 +1,4 @@
 from bottle import route, default_app,Bottle,request,template,static_file
-import requests
 
 #mybottleapp.py de lolstraw
 
