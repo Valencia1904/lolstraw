@@ -1,5 +1,5 @@
-from bottle import Bottle,route,run,request,template,static_file
-#indez
+from bottle import route,run,request,template,static_file
+#Página lolstraw
 @route('/')
 def principal():
     return template('index.tpl')
@@ -10,4 +10,3 @@ def server_static(filepath):
     return static_file(filepath, root='static')
 
 
-run(host='0.0.0.0', port=8080)
