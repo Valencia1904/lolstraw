@@ -1,7 +1,6 @@
 from bottle import route, default_app,Bottle,request,template,static_file
 
 #mybottleapp.py de lolstraw
-
 @route('/')
 def index():
     return template("index.tpl")
