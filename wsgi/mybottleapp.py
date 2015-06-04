@@ -8,7 +8,7 @@ def index():
 
 @route('/static/<filepath:path>')
 def server_static(filepath):
-    return static_file(filepath, root='static')
+    return static_file(filepath, root=os.environ['OPENSHIFT_REPO_DIR']+"wsgi/static")
 
 # This must be added in order to do correct path lookups for the views
 import os
