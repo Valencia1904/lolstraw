@@ -60,7 +60,8 @@ def objetos():
 
 @route('/')
 def index():
-    return template("index.tpl", personajes=listadepersonajes)
+	personajes = listadepersonajes()
+    return template("index.tpl", personajes=personajes)
 	
 
 
