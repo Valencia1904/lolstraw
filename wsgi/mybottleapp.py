@@ -4,6 +4,7 @@ from bottle import route, default_app,Bottle,request,template,static_file
 import json
 import requests
 
+
 #FUNCIONES:
 
 #lista de personajes
