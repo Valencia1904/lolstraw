@@ -22,12 +22,12 @@
 		<!-- Header -->
 			<header id="header" class="alt">
 				<h1><a href="index.html">LoL Straw</a> by Alevalencompany</h1>
-				<nav id="nav">
+				<!-- <nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="generic.html">Generic</a></li>
 						<li><a href="contact.html">Contact</a></li>
 						<li><a href="elements.html">Elements</a></li>
 					</ul>
-				</nav>
+				</nav>-->
 			</header>
