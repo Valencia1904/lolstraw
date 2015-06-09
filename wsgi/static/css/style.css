@@ -497,7 +497,7 @@
 			.box .image.featured img {
 				border-radius: 0;
 				display: block;
-				width: 100%;
+				width: 50%;
 			}
 
 			.box .image.featured:first-child {
