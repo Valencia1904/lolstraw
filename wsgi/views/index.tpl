@@ -20,7 +20,7 @@
 							<span class="image featured"><img src="static/images/Akali_Splash_6.jpg" alt="" /></span>
 							<h3>{{i}}</h3>
 							<ul class="actions">
-								<li><a href="#" class="button alt">seleccionar</a></li>
+								<li><a href="#{{i}}" class="button alt">seleccionar</a></li>
 							</ul>
 						</section>
 
