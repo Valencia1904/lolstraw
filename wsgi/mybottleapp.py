@@ -66,7 +66,7 @@ def index():
 
 @route('/campeon/<name>')
 def personaje(name):
-	return name
+	return template ('campeon.tpl' , nombre=name)
 	
 @route('/static/<filepath:path>')
 def server_static(filepath):
