@@ -21,7 +21,7 @@
 
 		<!-- Header -->
 			<header id="header" class="alt">
-				<h1><a href="index.html">LoL Straw</a> by Alevalencompany</h1>
+				<h1><a href="/">LoL Straw</a> by Alevalencompany</h1>
 				<!-- <nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
