@@ -13,7 +13,7 @@
 					<h3>Sed lorem adipiscing</h3>
 
 				<div class="row">
-%for i in personajes
+%for i in personajes:
 					<div class="6u 12u(narrower)">
 
 						<section class="box special">
