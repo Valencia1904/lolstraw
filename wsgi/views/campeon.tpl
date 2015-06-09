@@ -17,5 +17,20 @@
 				</div>
 
 			</section>
+			<section class="box">
+								<h3>Datos</h3>
+								<div class="row">
+									<div class="6u 12u(mobilep)">
+
+										<h4>Unordered</h4>
+										<ul>
+											<li>Dolor pulvinar etiam magna etiam.</li>
+											<li>Sagittis adipiscing lorem eleifend.</li>
+											<li>Felis enim feugiat dolore viverra.</li>
+										</ul>
+
+									</div>
+									
+								</div>
 % include('foot.tpl')
 

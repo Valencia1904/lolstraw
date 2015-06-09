@@ -28,7 +28,7 @@ def listadepersonajes():
 def datosdepersonaje(nombre):
 	dicc={"champData":"stats","api_key":mi_api}
 	lol = requests.get("https://global.api.pvp.net/api/lol/static-data/euw/v1.2/champion",params=dicc)
-	nombre=raw_input("Nombre del personaje: ")
+	nombre=name
 
 	if lol.status_code == 200:
 		datos={}
@@ -66,7 +66,7 @@ def index():
 
 @route('/campeon/<name>')
 def personaje(name):
-	return template ('campeon.tpl' , nombre=name)
+	return template ('campeon.tpl' , nombre=name, datos=datosdepersonaje(nombre))
 	
 @route('/static/<filepath:path>')
 def server_static(filepath):
