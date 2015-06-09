@@ -495,7 +495,7 @@
 		}
 
 			.box .image.featured img {
-				border-radius: 0;
+				border-radius: 50;
 				display: block;
 				width: 50%;
 			}
@@ -507,7 +507,7 @@
 			}
 
 				.box .image.featured:first-child img {
-					border-radius: 6px 6px 0 0;
+					border-radius: 6px 6px 6px 6px;
 				}
 
 			.box .image.featured:last-child {
