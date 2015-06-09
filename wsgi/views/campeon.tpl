@@ -10,7 +10,7 @@
 			<section id="main" class="container">
 
 				<section class="box special">
-				<span class="image featured"><img src="static/image.antiguas/{{nombre}}_0.png" alt="" /></span>
+				<span class="image featured"><img src="static/image.antiguas/{{nombre}}_0.jpg" alt="" /></span>
 					<h3>{{nombre}}</h3>
 			</section>
 							
