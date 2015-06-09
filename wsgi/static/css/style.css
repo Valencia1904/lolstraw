@@ -3,6 +3,7 @@
 
 /*
 	Alpha by HTML5 UP
+	Alpha by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -490,7 +491,7 @@
 			border-radius: 0;
 			display: block;
 			margin: 3em 0 3em -3em;
-			position: relative;
+			position: center;
 			width: calc(100% + 6em);
 		}
 
