@@ -17,7 +17,7 @@
 					<div class="6u 12u(narrower)">
 
 						<section class="box special">
-							<span class="image featured"><img src="static/image.antiguas/{{i}}_Square_0.png" alt="" /></span>
+							<span class="image featured"><img src="static/images/{{i}}_Square_0.png" alt="" /></span>
 							<h3>{{i}}</h3>
 							<ul class="actions">
 								<li><a href="/campeon/{{i}}" class="button alt">seleccionar</a></li>
