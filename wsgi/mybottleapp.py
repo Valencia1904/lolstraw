@@ -67,9 +67,9 @@ def index():
 
 @route('/campeon/<name>')
 def personaje(name):
-	return template ('campeon.tpl' , nombre=name)
+	datos=datosdepersonaje(name)
+	return template ('campeon.tpl' , nombre=name, datos=datos)
 	
-#, datos=datosdepersonaje(name)
 @route('/static/<filepath:path>')
 def server_static(filepath):
     return static_file(filepath, root=os.environ['OPENSHIFT_REPO_DIR']+"wsgi/static")
