@@ -1,7 +1,7 @@
 % include('head.tpl')
 		<!-- Banner -->
 			<section id="banner">
-				<h2 href="/">LoL  Straw</h2>
+				<h2><a href="/">LoL  Straw</h2>
 				<p>Bienvenidos a la calculadora del Leage of legends</p>
 			</section>
 
