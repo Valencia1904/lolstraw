@@ -11,7 +11,7 @@
 
 				<section class="box special">
 				<span class="image featured"><img src="static/image.antiguas/{{nombre}}_0.png" alt="" /></span>
-					<h3>Sed lorem adipiscing</h3>
+					<h3>{{nombre}}</h3>
 			</section>
 							
 % include('foot.tpl')
