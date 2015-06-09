@@ -17,7 +17,7 @@
 					<div class="6u 12u(narrower)">
 
 						<section class="box special">
-							<span class="image featured"><img src="static/image.antiguas/Akali_Splash_6.jpg" alt="" /></span>
+							<span class="image featured"><img src="static/image.antiguas/{{i}}_6.jpg" alt="" /></span>
 							<h3>{{i}}</h3>
 							<ul class="actions">
 								<li><a href="/campeon/{{i}}" class="button alt">seleccionar</a></li>
