@@ -17,7 +17,7 @@
 		margin-right: auto;
 
 		/* width: (containers) */
-		width: 30em;
+		width: 20em;
 	}
 
 	/* Modifiers */
@@ -74,6 +74,13 @@
 		height: 0;
 	}
 
+	.row.uniform > * > :first-child {
+		margin-top: 0;
+	}
+
+	.row.uniform > * > :last-child {
+		margin-bottom: 0;
+	}
 	.row.uniform > * > :first-child {
 		margin-top: 0;
 	}
