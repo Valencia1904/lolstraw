@@ -20,13 +20,19 @@
 			<section class="box">
 				<h3>Datos</h3>
 				<div class="table-wrapper">
-					<thead>
+					<table>
+					
 						<tr>
 %for dato in datos.keys():
 							<th>{{dato}}</th>
 %end
 						</tr>
-					</thead>
+						<tr>
+%for dato in datos:
+							<td>{{dato}}</td>
+%end
+						</tr>
+					</table>
 <!---					<tbody>
 						<tr>
 
