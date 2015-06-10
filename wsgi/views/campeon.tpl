@@ -22,7 +22,7 @@
 				<div class="table-wrapper">
 					<thead>
 						<tr>
-%for dato in datos.keys()
+%for dato in datos.keys():
 							<th>{{dato}}</th>
 %end
 						</tr>
