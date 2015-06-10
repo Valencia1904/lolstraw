@@ -2,7 +2,7 @@
 		<!-- Banner -->
 			<section id="banner">
 				<h2>LoL  Straw</h2>
-				<p>Bienvenidos a la calculadora del Leage of legends</p>
+				<p><a href="/">Personajes	</p><p><a href="/objetos">Objetos</p>
 			</section>
 
 		<!-- Main -->
