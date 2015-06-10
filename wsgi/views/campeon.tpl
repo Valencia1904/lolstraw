@@ -15,7 +15,7 @@
 				<div class="row">
 
 				</div>
-
+		<!-- Table -->
 			</section>
 			<section class="box">
 				<h3>Datos</h3>
@@ -24,10 +24,10 @@
 					
 
 %for key, value in datos.iteritems():
-    <tr>
-        <td>{{key}} </td>
-        <td>{{value}} </td>
-    </tr>
+						<tr>
+							<td>{{key}} </td>
+							<td>{{value}} </td>
+						</tr>
 %end
 					</table>
 

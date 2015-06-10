@@ -70,6 +70,11 @@ def personaje(name):
 	datos=datosdepersonaje(name)
 	return template ('campeon.tpl' , nombre=name, datos=datos)
 	
+@route('/objetos')
+def pagobjetos():
+	datos=objetos()
+	return template ('objetos.tpl' , datos=datos)
+
 @route('/static/<filepath:path>')
 def server_static(filepath):
     return static_file(filepath, root=os.environ['OPENSHIFT_REPO_DIR']+"wsgi/static")
