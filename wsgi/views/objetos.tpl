@@ -15,8 +15,8 @@
 
 %for key, value in datos.iteritems():
 						<tr>
-							<td>{{key}} </td>
-							<td>{{value}} </td>
+							<td>{{value[0]}} </td>
+							<td>{{value[1]}} </td>
 						</tr>
 %end
 					</table>
