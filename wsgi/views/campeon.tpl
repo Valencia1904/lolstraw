@@ -29,7 +29,7 @@
 					</thead>
 <!---					<tbody>
 						<tr>
-%for dato in datos;
+
 							<td>dato[] 	</td>
 
 						</tr>
