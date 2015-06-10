@@ -28,15 +28,9 @@
         <td>{{key}} </td>
         <td>{{value}} </td>
     </tr>
-
+%end
 					</table>
-<!---					<tbody>
-						<tr>
 
-							<td>dato[] 	</td>
-
-						</tr>
-					</tbody>--->
 				</div>
 			</section>
 % include('foot.tpl')
