@@ -22,8 +22,8 @@
 				<div class="table-wrapper">
 					<thead>
 						<tr>
-%for dato in datos;
-							<th>dato[dato]</th>
+%for dato in datos.keys()
+							<th>{{dato}}</th>
 %end
 						</tr>
 					</thead>
