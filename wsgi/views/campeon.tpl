@@ -22,16 +22,13 @@
 				<div class="table-wrapper">
 					<table>
 					
-						<tr>
-%for dato in datos.keys():
-							<th>{{dato}}</th>
-%end
-						</tr>
-						<tr>
-%for dato in datos:
-							<td>{{dato}}</td>
-%end
-						</tr>
+
+%for key, value in datos.iteritems():
+    <tr>
+        <td>{{key}} </td>
+        <td>{{value}} </td>
+    </tr>
+
 					</table>
 <!---					<tbody>
 						<tr>
