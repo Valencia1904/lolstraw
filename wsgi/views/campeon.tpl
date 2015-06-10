@@ -18,19 +18,23 @@
 
 			</section>
 			<section class="box">
-								<h3>Datos</h3>
-								<div class="row">
-									<div class="6u 12u(mobilep)">
+				<h3>Datos</h3>
+				<div class="table-wrapper">
+					<thead>
+						<tr>
+%for dato in datos;
+							<th>dato[dato]</th>
+%end
+						</tr>
+					</thead>
+<!---					<tbody>
+						<tr>
+%for dato in datos;
+							<td>dato[] 	</td>
 
-										<h4>Unordered</h4>
-										<ul>
-											<li>Dolor pulvinar etiam magna etiam.</li>
-											<li>Sagittis adipiscing lorem eleifend.</li>
-											<li>Felis enim feugiat dolore viverra.</li>
-										</ul>
-
-									</div>
-									
-								</div>
+						</tr>
+					</tbody>--->
+				</div>
+			</section>
 % include('foot.tpl')
 
