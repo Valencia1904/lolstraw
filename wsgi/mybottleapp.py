@@ -74,8 +74,7 @@ def personaje(name):
 @route('/objetos')
 def pagobjetos():
 	datos=objetos()
-#	return template ('objetos.tpl' , datos=datos)
-	return datos
+	return template ('objetos.tpl' , datos=datos)
 
 @route('/static/<filepath:path>')
 def server_static(filepath):
