@@ -23,7 +23,7 @@
 						<h3>Niveles</h3>
 						
 %for i in xrange(1,19):
-						<a href="/campeones/{{nombre}}/{{i}}">{{i}}</a>
+						<a href="/campeon/{{nombre}}/{{i}}">{{i}}</a>
 %end
 
 						

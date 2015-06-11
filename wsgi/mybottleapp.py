@@ -81,7 +81,7 @@ def personaje2(name,nivel):
 	datos=datosdepersonaje(name)
 	for key in datos.keys():
 		if key.find("level")>0:
-			datos[key]=datos[key]*nivel
+			datos[key]=datos[key]*int(nivel)
 			
 	return template ('campeon.tpl' , nombre=name, datos=datos, nivel=nivel)
 
