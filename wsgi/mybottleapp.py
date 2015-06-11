@@ -74,7 +74,7 @@ def personaje(name):
 @route('/objetos')
 def pagobjetos():
 	datos=objetos()
-	return template ('objetos.tpl' , datos=datos)
+	return template ('prueba.tpl' , datos=datos)
 	
 @route('/campeon/<name>/<nivel>')
 def personaje(name):
