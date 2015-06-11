@@ -77,7 +77,7 @@ def pagobjetos():
 	return template ('objetos.tpl' , datos=datos)
 	
 @route('/campeon/<name>/<nivel>')
-def personaje(name,nivel):
+def personaje2(name,nivel):
 	datos=datosdepersonaje(name)
 	for key in datos.keys():
 		if key.find("level")>0:
