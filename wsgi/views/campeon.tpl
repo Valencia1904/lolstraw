@@ -16,9 +16,11 @@
 
 				</div>
 		<!-- Formulario -->
+			</section>
+			<section class="box">
 				<div>
-					<label for="nivel">nivel</label> <br/>
-					<select id="nivel" name="nivel">
+					<h3>Nivel</h3>
+					<select id="nivel" method="post" name="nivel">
 %for i in xrange(1,19):
 							<option value="{{i}}">{{i}}</option>
 %end
@@ -26,8 +28,7 @@
 					</select>
 				</div>
 		<!-- Table -->
-			</section>
-			<section class="box">
+
 				<h3>Datos</h3>
 				<div class="table-wrapper">
 					<table>
