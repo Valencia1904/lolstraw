@@ -75,6 +75,10 @@ def personaje(name):
 def pagobjetos():
 	datos=objetos()
 	return template ('objetos.tpl' , datos=datos)
+	
+@route('/campeon/<name>/<nivel>')
+def personaje(name):
+	return template ('campeonnivel.tpl' , nombre=name, datos=datos)
 
 @route('/static/<filepath:path>')
 def server_static(filepath):

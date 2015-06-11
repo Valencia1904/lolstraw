@@ -15,6 +15,16 @@
 				<div class="row">
 
 				</div>
+		<!-- Formulario -->
+				<div>
+					<label for="nivel">nivel</label> <br/>
+					<select id="nivel" name="nivel">
+%for i in xrangue(1,19):
+							<option value="{{i}}">{{i}}</option>
+%end
+
+					</select>
+				</div>
 		<!-- Table -->
 			</section>
 			<section class="box">
