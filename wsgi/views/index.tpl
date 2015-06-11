@@ -2,7 +2,7 @@
 		<!-- Banner -->
 			<section id="banner">
 				<h2>LoL  Straw</h2>
-				<h4><a href="/">Personajes	</h4><h4><a href="/objetos">Objetos</h4>
+				<h4><a href="/">Personajes	</a></h4><h4><a href="/objetos">Objetos</a></h4>
 			</section>
 
 		<!-- Main -->
