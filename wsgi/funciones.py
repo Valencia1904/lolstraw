@@ -37,3 +37,23 @@ def objetos():
 #			print '	',objetos['data'][i]['description']
 			
 	return lista
+
+
+def personajesnivel(datos, nivel):
+	datosnivel={}
+	for i in datos.keys():
+		if level in i:
+			datosnivel[i]=i.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
