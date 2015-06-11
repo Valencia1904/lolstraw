@@ -21,14 +21,12 @@
 				<form id="formulario" method="post" action="/campeon/{{nombre}}">
 					<div>
 						<h3>Nivel</h3>
-						<select id="nivel" name="nivel">
-%for i in xrange(1,19):
-								<option value="{{i}}">{{i}}</option>
-%end
-
-						</select>
+							Nombre <br/>
+						<input type="text" name="nombre" value="" />
 						<input type="submit" name="Enviar" value="calcular" />
 					</div>
+					
+				</form>
 					
 		<!-- Table -->
 

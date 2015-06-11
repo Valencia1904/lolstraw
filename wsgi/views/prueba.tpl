@@ -9,3 +9,4 @@
 						</select>
 						<input type="submit" name="Enviar" value="calcular" />
 					</div>
+				</form>
