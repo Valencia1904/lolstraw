@@ -69,16 +69,21 @@ def index():
 @route('/campeon/<name>')
 def personaje(name):
 	datos=datosdepersonaje(name)
-	return template ('campeon.tpl' , nombre=name, datos=datos)
+	return template ('campeon.tpl' , nombre=name, datos=datos, nivel=1)
 	
 @route('/objetos')
 def pagobjetos():
 	datos=objetos()
-	return template ('prueba.tpl' , datos=datos)
+	return template ('objetos.tpl' , datos=datos)
 	
 @route('/campeon/<name>/<nivel>')
-def personaje(name):
-	return template ('campeonnivel.tpl' , nombre=name, datos=datos)
+def personaje(name,nivel):
+	datos=datosdepersonaje(name)
+	for key in datos.keys():
+		if key.find("level")>0:
+			datos[key]=datos[key]*nivel
+			
+	return template ('campeon.tpl' , nombre=name, datos=datos, nivel=nivel)
 
 @route('/static/<filepath:path>')
 def server_static(filepath):

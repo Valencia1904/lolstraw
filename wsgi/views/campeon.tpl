@@ -32,7 +32,7 @@
 					
 		<!-- Table -->
 
-				<h3>Datos</h3>
+				<h3>Datos de nivel {{nivel}}</h3>
 				<div class="table-wrapper">
 					<table>
 					

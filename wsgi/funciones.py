@@ -39,11 +39,7 @@ def objetos():
 	return lista
 
 
-def personajesnivel(datos, nivel):
-	datosnivel={}
-	for i in datos.keys():
-		if level in i:
-			datosnivel[i]=i.
+
 	
 	
 	
