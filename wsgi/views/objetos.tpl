@@ -1,8 +1,8 @@
 % include('head.tpl')
 		<!-- Banner -->
 			<section id="banner">
-				<h2><a href="/">LoL  Straw</h2>
-				<p>Bienvenidos a la calculadora del Leage of legends</p>
+				<h2>LoL  Straw</h2>
+				<h4><a href="/">Personajes	</a></h4><h4><a href="/objetos">Objetos</a></h4>
 			</section>
 
 		<!-- Table -->
