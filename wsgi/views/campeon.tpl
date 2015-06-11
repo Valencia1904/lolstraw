@@ -18,15 +18,17 @@
 		<!-- Formulario -->
 			</section>
 			<section class="box">
-				<form id="formulario" method="post" action="/campeon/{{nombre}}">
+				
 					<div>
-						<h3>Nivel</h3>
-							Nombre <br/>
-						<input type="text" name="nombre" value="" />
-						<input type="submit" name="Enviar" value="calcular" />
+						<h3>Niveles</h3>
+						
+%for i in xrange(1,19):
+						<a href="/campeones/{{nombre}}/{{i}}">{{i}}</a>
+%end
+
+						
 					</div>
 					
-				</form>
 					
 		<!-- Table -->
 
